@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature Converter</title>
+    <script>
+        function convertTemperature() {
+            // Get temperature input from user
+            let temp = parseFloat(document.getElementById("temp").value);
+
+            // Get conversion type (C to F or F to C)
+            let type = document.getElementById("type").value;
+
+            // Initialize result variable
+            let result = "";
+
+            // Check if input is a valid number
+            if (isNaN(temp)) {
+                result = "Please enter a valid number.";
+            } else {
+                if (type === "CtoF") {
+                    // Celsius to Fahrenheit: F = (C × 9/5) + 32
+                    let fahrenheit = (temp * 9/5) + 32;
+                    result = temp + " °C = " + fahrenheit.toFixed(2) + " °F";
+                } else if (type === "FtoC") {
+                    // Fahrenheit to Celsius: C = (F − 32) × 5/9
+                    let celsius = (temp - 32) * 5/9;
+                    result = temp + " °F = " + celsius.toFixed(2) + " °C";
+                }
+            }
+
+            // Display the result
+            document.getElementById("result").innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+
+<h2>Temperature Converter</h2>
+
+<!-- Form -->
+<form onsubmit="event.preventDefault(); convertTemperature();">
+    <label>Enter Temperature:</label><br>
+    <input type="number" id="temp" required><br><br>
+
+    <label>Select Conversion Type:</label><br>
+    <select id="type">
+        <option value="CtoF">Celsius to Fahrenheit</option>
+        <option value="FtoC">Fahrenheit to Celsius</option>
+    </select><br><br>
+
+    <button type="submit">Convert</button>
+</form>
+
+<!-- Result Display -->
+<h3 id="result"></h3>
+
+</body>
+</html>
