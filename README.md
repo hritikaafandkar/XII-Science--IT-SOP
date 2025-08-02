@@ -1,60 +1,58 @@
 # XII Science IT SOPs 🚀
 
-This repository contains the **Standard Operating Practical (SOP)** programs for **XII Standard Information Technology (Science stream)**. All programs are written using **HTML**, **CSS**, and **JavaScript**, demonstrating various event-driven and functional logic covered in the curriculum.
+This repository contains the **Standard Operating Practical (SOP)** programs for **XII Standard Information Technology (Science stream)**. Each HTML file demonstrates a small, self-contained JavaScript task, covering core event-driven and logic exercises.
 
 ---
 
 ## 📁 Contents
 
-| SOP No. | Title                                                                 | Technologies Used       |
-|--------:|------------------------------------------------------------------------|--------------------------|
-| SOP 7   | Count vowels in a given string                                         | HTML, JavaScript         |
-| SOP 8   | Temperature Converter (Celsius ↔ Fahrenheit)                          | HTML, JavaScript         |
-| SOP 9   | Student Grade Calculator (Average & Grade logic)                     | HTML, JavaScript         |
-| SOP 10  | Background Color Changer (Auto-changing color using setInterval)     | HTML, JavaScript         |
-| SOP 11  | Simple Factorial and Fibonacci Logic                                  | HTML, JavaScript         |
-
-> More SOPs will be added as per the syllabus and practical sessions.
+| File                    | SOP Title / Description                                                   |
+|-------------------------|----------------------------------------------------------------------------|
+| `addition.html`         | **Addition Calculator**<br>Accepts two numbers and shows their sum.        |
+| `audio.html`            | **Audio Player**<br>Plays, pauses, and loops an audio file.                |
+| `changeBackground.html` | **Background Color Changer**<br>Automatically cycles page colors over time. |
+| `factorial.html`        | **Factorial Finder**<br>Computes the factorial of a given number.          |
+| `multiplication.html`   | **Multiplication Table**<br>Generates the multiplication table up to 10.    |
+| `tempconverter.html`    | **Temperature Converter**<br>Converts between °C and °F.                   |
+| `validation.html`       | **Form Validation**<br>Validates user input (e.g., email, required fields).|
+| `vowelCounter.html`     | **Vowel Counter**<br>Counts the number of vowels in a user-entered string. |
 
 ---
 
-## 📌 How to Use
+## 📌 How to Run
 
-1. Clone or download this repository.
-2. Open each `.html` file in any modern web browser.
-3. Follow on-screen instructions for input and interaction.
-4. You can also edit these files in **VS Code** or any text editor to experiment and learn.
+1. **Clone or download** this repository.
+2. Open any `*.html` file in a modern web browser.
+3. Interact with the form controls or buttons on the page to see each SOP in action.
 
 ---
 
 ## 🔧 Technologies Used
 
-- **HTML5**
-- **CSS3** (Basic styling)
-- **JavaScript (ES5/ES6)** – for event-driven and logic-based programs
+- **HTML5**  
+- **JavaScript (ES6+)**  
+
+All examples use inline scripting and minimal styling to focus purely on functionality.
 
 ---
 
 ## 💡 Educational Purpose
 
-This repository is specially created to help **XII Standard IT students**:
-- Understand basic JavaScript programming
-- Learn how to build interactive web applications
-- Practice logic-based problems using client-side scripting
+Designed for **12th Standard IT students**, these SOPs help you:
 
----
+- Practice **event-driven JavaScript**  
+- Understand **control structures** and **loops**  
+- Learn basic **DOM manipulation**  
 
-## 📚 License
-
-This project is **open-source** and free to use for educational purposes.
+Feel free to **fork**, **star**, and **modify** these examples to deepen your understanding!
 
 ---
 
 ## 🙋‍♀️ Author
 
-**Hritika**  
-📘 XII Science - Information Technology  
-📍 India  
+**Hritika A. Fandkar**  
+XII Science (IT) — India  
 
-Feel free to fork, star ⭐ this repository, and contribute with improvements!
+---
 
+> *Last updated:* _(you can update this manually each time you add new SOP files)_  
